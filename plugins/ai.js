@@ -1,15 +1,4 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
+//𝐂𝐑𝐀𝐙𝐘 𝐃𝐄𝐕
 
 const axios = require("axios");
 const { cmd } = require("../command");
@@ -62,7 +51,7 @@ cmd({
         const ALIVE_IMG = 'https://i.imgur.com/R4ebueM.jpeg'; // Remplacez par l'URL de votre image AI
 
         // Légende avec des informations formatées
-        const formattedInfo = `🤖 *ChatGPT Response:*\n\n${gptResponse}`;
+        const formattedInfo = `𝐂𝐑𝐀𝐙𝐘 *Response:*\n\n${gptResponse}`;
 
         // Envoyer le message avec image et légende
         await conn.sendMessage(from, {
@@ -74,7 +63,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363321386877609@newsletter',
-                    newsletterName: '𝐊𝐄𝐑𝐌 𝐀𝐈',
+                    newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐀𝐈',
                     serverMessageId: 143
                 }
             }
@@ -134,7 +123,7 @@ cmd({
         }
 
         // AI image to attach
-        const AI_IMG = 'https://i.ibb.co/V09y0WJY/mrfrankofc.jpg'; // Replace with a valid image URL
+        const AI_IMG = 'https://files.catbox.moe/giab52.jpeg'; // Replace with a valid image URL
 
         // Formatted response text
         const formattedInfo = `🤖 *Llama3 Response:*\n\n${llamaResponse}`;
@@ -149,7 +138,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363321386877609@newsletter',
-                    newsletterName: '𝐊𝐄𝐑𝐌 𝐀𝐈',
+                    newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐀𝐈',
                     serverMessageId: 143
                 }
             }

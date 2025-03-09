@@ -28,7 +28,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const fact = response.data.text;
 
         const funFact = `
-🤣 *KERM-MD-V1 RANDOM FACT* 🤣
+🤣 *CRAZY-MD-V1 RANDOM FACT* 🤣
 
 ${fact}
 
@@ -60,7 +60,7 @@ async (conn, mek, m, { from, q, reply }) => {
 *${joke.setup}*
 ${joke.punchline} 😄
 
-> *POWERED BY KG TECH*
+> *POWERED BY CRAZY DEV*
 `;
         return reply(jokeMessage);
     } catch (e) {

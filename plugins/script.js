@@ -66,7 +66,7 @@ cmd({
     pattern: "repo",
     alias: ["sc", "script", "info"],
     desc: "Fetch information about a GitHub repository.",
-    react: "🎗️",
+    react: "🍒",
     category: "info",
     filename: __filename,
 },
@@ -87,9 +87,9 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*Hello There KERM W.A BOT User! 😄👋* 
+        const formattedInfo = `*𝐡𝐢 𝐛𝐨𝐬𝐬 𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲🥇* 
 
-> Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, Kerm WhatsApp Bot. ❄️
+> 𝐜𝐡𝐮𝐝𝐝𝐲 𝐛𝐮𝐝𝐝𝐲 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐛𝐨𝐭 𝐦𝐚𝐤𝐞 𝐟𝐨𝐫 𝐞𝐝𝐲𝐜𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐩𝐮𝐫𝐩𝐨𝐬𝐞🌺
 
 *Thanks for using crazy md🫶* 
 

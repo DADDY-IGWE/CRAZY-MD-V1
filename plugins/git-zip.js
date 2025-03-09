@@ -16,7 +16,7 @@ cmd({
   reply: _0x11eb9d
 }) => {
   if (!_0x216653[0x0]) {
-    return _0x11eb9d("Where is the GitHub link?\n\nExample:\n.git https://github.com/Kgtech-cmr/KERM-MD-V1");
+    return _0x11eb9d("Where is the GitHub link?\n\nExample:\n.git https://github.com/username/repo");
   }
   if (!/^(https:\/\/)?github\.com\/.+/.test(_0x216653[0x0])) {
     return _0x11eb9d("⚠️ Invalid GitHub link.");
@@ -36,7 +36,7 @@ cmd({
     }
     let _0x49a379 = _0xe6be44.headers.get("content-disposition");
     let _0x481150 = _0x49a379 ? _0x49a379.match(/filename=(.*)/)[0x1] : _0x16a926 + ".zip";
-    _0x11eb9d("*📥KERM DOWNLOADING REPOSITORY...*\n\n*REPOSITORY:* " + _0x5194b2 + '/' + _0x16a926 + "\n*FILENAME:* " + _0x481150 + "\n\n> *© KERM-MD-V1*");
+    _0x11eb9d("*📥CRAZY DOWNLOADING REPOSITORY...*\n\n*REPOSITORY:* " + _0x5194b2 + '/' + _0x16a926 + "\n*FILENAME:* " + _0x481150 + "\n\n> *© CRAZY-MD-V1*");
     await _0x359a4d.sendMessage(_0x421a7d, {
       'document': {
         'url': _0x936878
@@ -49,7 +49,7 @@ cmd({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363321386877609@newsletter",
-          'newsletterName': "𝐊𝐄𝐑𝐌 𝐆𝐈𝐓𝐇𝐔𝐁 𝐂𝐋𝐎𝐍𝐄🏌️",
+          'newsletterName': " 𝐆𝐈𝐓𝐇𝐔𝐁 𝐂𝐋𝐎𝐍𝐄🏌️",
           'serverMessageId': 0x8f
         }
       }
