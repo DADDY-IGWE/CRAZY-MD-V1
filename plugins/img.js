@@ -1,15 +1,5 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
+// 𝐁𝐘 𝐂𝐑𝐀𝐙𝐘 𝐃𝐄𝐕 𝐆𝐈𝐕𝐄 𝐂𝐑𝐄𝐃𝐈𝐓:
+//𝐖𝐀.𝐌𝐄/24165730123
 
 const {
   cmd,
@@ -32,7 +22,7 @@ cmd({
   try {
     const _0x3207b0 = _0x12b1f7.join(" ");
     if (!_0x3207b0) {
-      return _0x2ac5cb("*Please provide search keywords for the image. Eg Kerm*");
+      return _0x2ac5cb("*Please provide search keywords for the image. Eg gabon*");
     }
     _0x2ac5cb("*🔍 Showing Results For - " + _0x3207b0 + "...*");
     const _0x2f5556 = 'https://rubenbot-subzero-api.hf.space/download/piniimg?text=' + encodeURIComponent(_0x3207b0);
@@ -48,7 +38,7 @@ cmd({
           'image': {
             'url': _0x58b5b7.images_url
           },
-          'caption': "*© 𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤𝖣 𝖡𝖸 𝖪𝖤𝖱𝖬*" 
+          'caption': "*© 𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤𝖣 𝖡𝖸 CRAZY MD🍒*" 
         }, {
           'quoted': _0x59fdb9
         });
