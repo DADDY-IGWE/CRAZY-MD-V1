@@ -1,0 +1,23 @@
+
+version: 1.0.0
+services:
+  - type: web
+    name: crazy-md
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    branches:
+      - main
+    regions:
+      - oregon
+    envVars:
+      - key: OWNER_ID
+        value: "24165730123"
+      - key: API_KEY
+        value: "redis://red-cv7h1ian91rc73e40r3g:6379"  # Replace with the API key if you're using external services.
+      - key: PREFIX
+        value: "."  # Customize your bot prefix here (example: '!', '.', or '#')
+      - key: DB_URL
+        value: "postgresql://crazy_db_user:CQjoWbWqWmBPyJeMBgl5JZJ0X0fK3ciY@dpg-cv7h2e3tq21c73cf8n00-a.oregon-postgres.render.com/crazy_db"  # If your bot uses a database, replace with your actual URL.
+    autoDeploy: true
