@@ -1,15 +1,4 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
 
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
 
 const fs = require("fs");
 const path = require("path");
@@ -24,7 +13,7 @@ const saveDiaries = () => {
 };
 
 // URL of the image (replace with a valid URL)
-const DIARY_IMG = "https://i.ibb.co/4Zq1jCNP/lordkerm.jpg"; 
+const DIARY_IMG = "https://files.catbox.moe/giab52.jpeg"; 
 
 // ---------------------
 // .diary command (open or create diary)
@@ -76,7 +65,7 @@ cmd({
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363321386877609@newsletter',
-                newsletterName: '𝐊𝐄𝐑𝐌 𝐃𝐈𝐀𝐑𝐘',
+                newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐃𝐈𝐀𝐑𝐘',
                 serverMessageId: 143
             }
         }

@@ -89,7 +89,7 @@ async (conn, mek, m, { from, reply }) => {
         // Format the repository information
         const formattedInfo = `*𝐡𝐢 𝐛𝐨𝐬𝐬 𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲🥇* 
 
-> 𝐜𝐡𝐮𝐝𝐝𝐲 𝐛𝐮𝐝𝐝𝐲 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐛𝐨𝐭 𝐦𝐚𝐤𝐞 𝐟𝐨𝐫 𝐞𝐝𝐲𝐜𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐩𝐮𝐫𝐩𝐨𝐬𝐞🌺
+ 𝐜𝐡𝐮𝐝𝐝𝐲 𝐛𝐮𝐝𝐝𝐲 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐛𝐨𝐭 𝐦𝐚𝐤𝐞 𝐟𝐨𝐫 𝐞𝐝𝐲𝐜𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐩𝐮𝐫𝐩𝐨𝐬𝐞🌺
 
 *Thanks for using crazy md🫶* 
 

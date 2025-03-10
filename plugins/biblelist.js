@@ -26,6 +26,7 @@ cmd({
         // Liste des livres de la Bible
         const bibleList = `
 📜 *Old Testament*:
+
 1. Genesis
 2. Exodus
 3. Leviticus
@@ -67,6 +68,7 @@ cmd({
 39. Malachi
 
 📖 *New Testament*:
+
 1. Matthew
 2. Mark
 3. Luke
@@ -96,7 +98,7 @@ cmd({
 27. Revelation
 
 
-❤️BY KERM MD V1❤️
+>📜 TRUST GOD..🌟
 `;
 
         // Remplacer ce lien par l'URL de l'image que tu m'enverras
@@ -110,7 +112,7 @@ cmd({
         // Envoi de la réponse avec l'image et la liste des livres de la Bible
         await conn.sendMessage(m.chat, {
             image: { url: imageUrl },
-            caption: `📖 *Bible List By Kerm Md*:\n\n` +
+            caption: `📖 *Bible List By Crazy md*:\n\n` +
                      `Here is the complete list of books in the Bible:\n\n` +
                      bibleList.trim() // Ajout du texte des livres de la Bible
         }, { quoted: mek });

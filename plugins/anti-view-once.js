@@ -1,16 +1,4 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
-
+//𝚌𝚛𝚊𝚣𝚢 𝚟𝚟
 const axios = require('axios');
 const config = require('../config');
 const { cmd, commands } = require('../command');
@@ -19,15 +7,15 @@ const fs = require("fs");
 
 cmd({
     pattern: "vv",
-    react: "💾",
-    alias: ["retrive", "viewonce"],
+    react: "👀",
+    alias: ["reveler", "viewonce"],
     desc: "Fetch and resend a ViewOnce message content (image/video/voice).",
     category: "misc",
     use: "<query>",
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        if (!m.quoted) return reply("Please reply to a ViewOnce message.");
+        if (!m.quoted) return reply("𝙷𝙸 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝚃𝙾 𝚅𝙸𝙴𝚆𝙾𝙽𝙲𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝙿𝙻𝙴𝙰𝚂𝙴.");
 
         const mime = m.quoted.type;
         let ext, mediaType;

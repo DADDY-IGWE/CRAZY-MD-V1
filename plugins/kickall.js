@@ -11,7 +11,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 cmd({
     pattern: "kickall",
     desc: "Kicks all non-admin members from the group continuously until stopped.",
-    react: "🧨",
+    react: "🦿",
     category: "group",
     filename: __filename,
 }, async (conn, mek, m, {

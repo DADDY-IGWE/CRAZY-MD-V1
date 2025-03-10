@@ -1,16 +1,3 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
-
 
 const axios = require('axios');
                          const {cmd , commands} = require('../command');
@@ -37,12 +24,14 @@ const axios = require('axios');
                                  const synonyms = definitionData.meanings[0].definitions[0].synonyms.join(', ') || 'No synonyms available';
 
 const wordInfo = `
+🎗️𝘾𝙍𝘼𝙕𝙔 𝘿𝙀𝙁𝙄𝙉𝙀🎗️
+
 📚 *Word*: ${definitionData.word}
 🔍 *Definition*: ${definition}
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-*MADE WITH ♥ KERM-MD-V1*`;
+𝙼𝙰𝙳𝙴 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳🍓`;
 
                                  return reply(wordInfo);
                              } catch (e) {

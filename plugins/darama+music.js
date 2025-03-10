@@ -1,15 +1,4 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
+//////////bro/////non///stp///////
 
 const {cmd , commands} = require('../command')
 const fg = require('api-dylux')
@@ -30,7 +19,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁*KERM-MD-V1 MUSⵊC DOWNLOADⵊNG*⦁⫸
+𝄞*𝗖𝗥𝗔𝗭𝗬 𝗠𝗗 𝗠𝗨𝗦𝗜𝗖 𝗗𝗢𝗪𝗟𝗢𝗔𝗗𝗘𝗥*𝄞
 
 🎵 *MUSⵊC FOUND!* 
 
@@ -40,11 +29,8 @@ let desc = `
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
-> *KERM-MD-V1 WHATSAPP BOT* 
-
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kᴇʀᴍ-ᴍᴅ-ᴠ1* 
+> *🍒𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝚅1🍒* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -56,7 +42,7 @@ let downloadUrl = down.dl_url
 
 //send audio message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kɢ ᴛᴇᴄʜ*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳📍*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
@@ -83,7 +69,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁*•KERM-MD-V1 VⵊDEO DOWNLOADⵊNG*⦁⫸ 
+Ꙭ︎𝘾𝙍𝘼𝙕𝙔 𝙈𝘿 𝙑𝙄𝘿𝙀𝙊 𝘿𝙊𝙒𝙇𝙊𝘼𝘿𝙀𝙍Ꙭ︎
 
 🎥 *VⵊDEO FOUND!* 
 
@@ -93,11 +79,8 @@ let desc = `
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
-> *KERM-MD-V1 WHATSAPP BOT* 
-
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kᴇʀᴍ-ᴍᴅ-ᴠ1*
+> *𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝚅1🍒*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -109,11 +92,11 @@ let downloadUrl = down.dl_url
 
 //send video message
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kɢ Tᴇᴄʜ*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳🎐*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
-  reply(`_Hi ${pushname} retry later_`)
+  reply(`_Hi ${pushname} sorry retry the request later_`)
 }
 })
 //

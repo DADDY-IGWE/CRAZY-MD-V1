@@ -8,10 +8,10 @@ let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
 const ALIVE_IMG = "https://files.catbox.moe/giab52.jpeg"; // Assurez-vous que cette URL est valide
 
 cmd({
-    pattern: "alive",
+    pattern: "alive2",
     desc: "Check if the bot is active.",
     category: "info",
-    react: "💡",
+    react: "🔥",
     filename: __filename
 }, async (conn, mek, m, { reply, from }) => {
     try {
