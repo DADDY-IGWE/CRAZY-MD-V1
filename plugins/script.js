@@ -1,60 +1,6 @@
 // 𝐁𝐘 𝐂𝐑𝐀𝐙𝐘 𝐃𝐄𝐕 𝐆𝐈𝐕𝐄 𝐂𝐑𝐄𝐃𝐈𝐓:
 //𝐖𝐀.𝐌𝐄/24165730123
 
-/*
-const config = require('../config')
-const {cmd , commands} = require('../command')
-cmd({
-    pattern: "script",
-    alias: ["sc","repo","info"],
-    desc: "bot repo",
-    react: "🦸",
-    category: "main",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-let repo =`
-*╭──────────────●●►*
-> *BOT OWNER:*
-*|* *KG TECH🇨🇲*
-
-> *KERM-MD-V1 REPO:*
-*|* https://github.com/Kgtech-cmr/KERM-MD-V1
-
-> *SUPPORT GROUP:*
-*|* https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45
-*╰──────────────●●►*
-
-> *CREATED BY KG TECH*
-`
-await conn.sendMessage(from, { text: repo ,
-  contextInfo: {
-    mentionedJid: [ '' ],
-    groupMentions: [],
-    forwardingScore: 999,
-    isForwarded: false,
-    forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363321386877609@newsletter',
-      newsletterName: "ᴋᴇʀᴍ ᴄʜᴀɴɴᴇʟ",
-      serverMessageId: 999
-    },
-externalAdReply: { 
-title: 'Kᴇʀᴍ-Mᴅ-V1',
-body: `${pushname}`,
-mediaType: 1,
-sourceUrl: "https://github.com/Kgtech-cmr/KERM-MD-V1" ,
-thumbnailUrl: "https://files.catbox.moe/osriwc.jpg" ,
-renderLargerThumbnail: true,
-showAdAttribution: true
-}
-}}, { quoted: mek})}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-});
-*/
-
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 
@@ -87,9 +33,7 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐡𝐢 𝐛𝐨𝐬𝐬 𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲🥇* 
-
- 𝐜𝐡𝐮𝐝𝐝𝐲 𝐛𝐮𝐝𝐝𝐲 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐛𝐨𝐭 𝐦𝐚𝐤𝐞 𝐟𝐨𝐫 𝐞𝐝𝐲𝐜𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐩𝐮𝐫𝐩𝐨𝐬𝐞🌺
+        const formattedInfo = `*𝐡𝐢 𝐛𝐨𝐬𝐬 𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲🥇*\n\n𝐜𝐡𝐮𝐝𝐝𝐲 𝐛𝐮𝐝𝐝𝐲 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐛𝐨𝐭 𝐦𝐚𝐤𝐞 𝐟𝐨𝐫 𝐞𝐝𝐲𝐜𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐩𝐮𝐫𝐩𝐨𝐬𝐞🌺
 
 *Thanks for using crazy md🫶* 
 
@@ -125,7 +69,7 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363321386877609@newsletter',
+                    newsletterJid: '120363411838274335@newsletter',
                     newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐑𝐄𝐏𝐎',
                     serverMessageId: 143
                 }
@@ -134,7 +78,7 @@ ${readMore}
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },
+            audio: { url: 'https://files.catbox.moe/d8qqch.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -142,7 +86,7 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363321386877609@newsletter',
+                    newsletterJid: '120363411838274335@newsletter',
                     newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃',
                     serverMessageId: 143
                 }

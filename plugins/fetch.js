@@ -92,7 +92,7 @@ cmd({
     pattern: 'fetch',
     desc: 'Fetch content from a provided URL.',
     category: 'utility',
-    react: '🌐',
+    react: '⭕',
     filename: __filename
 }, async (conn, mek, m, { from, q, reply }) => {
     if (!q) return reply("Provide a valid URL to fetch!");

@@ -31,7 +31,7 @@ async (conn,mek, m, { from, body, isGroup, isAdmins, isBotAdmins, reply, sender 
         
         if (containsBadWord & config.ANTI_BAD_WORD === 'true') {
           await conn.sendMessage(from, { delete: mek.key }, { quoted: mek });
-          await conn.sendMessage(from, { text: "🚫 ⚠️BAD WORDS NOT ALLOWED⚠️ 🚫" }, { quoted: mek });
+          await conn.sendMessage(from, { text: " ⚠️BAD WORDS NOT ALLOWED⚠️ YOU BE WARNED" }, { quoted: mek });
         }
     } catch (error) {
         console.error(error)
@@ -76,7 +76,7 @@ cmd({
             await conn.sendMessage(from, { delete: mek.key }, { quoted: mek });
 
             // Warn the user
-            await conn.sendMessage(from, { text: `⚠️ Links are not allowed in this group.\n@${sender.split('@')[0]} has been removed. 🚫`, mentions: [sender] }, { quoted: mek });
+            await conn.sendMessage(from, { text: `*⚠️LINK DETECTED⚠️*\n\nLinks are not allowed in this group.\n@${sender.split('@')[0]} has been removed. 🚫`, mentions: [sender] }, { quoted: mek });
 
             // Remove the user from the group
             await conn.groupParticipantsUpdate(from, [sender], 'remove');

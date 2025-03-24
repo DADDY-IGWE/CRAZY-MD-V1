@@ -21,13 +21,13 @@ const url = data.url
 let desc = `
 𝄞*𝗖𝗥𝗔𝗭𝗬 𝗠𝗗 𝗠𝗨𝗦𝗜𝗖 𝗗𝗢𝗪𝗟𝗢𝗔𝗗𝗘𝗥*𝄞
 
-🎵 *MUSⵊC FOUND!* 
+🎐 *MUSⵊC FOUND!* 🎐
 
-➥ *Title:* ${data.title} 
-➥ *Duration:* ${data.timestamp} 
-➥ *Views:* ${data.views} 
-➥ *Uploaded On:* ${data.ago} 
-➥ *Link:* ${data.url} 
+↬ *Title:* ${data.title} 
+↬ *Duration:* ${data.timestamp} 
+↬ *Views:* ${data.views} 
+↬ *Uploaded On:* ${data.ago} 
+↬ *Link:* ${data.url} 
 
 
 > *🍒𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝚅1🍒* 
@@ -71,13 +71,13 @@ const url = data.url
 let desc = `
 Ꙭ︎𝘾𝙍𝘼𝙕𝙔 𝙈𝘿 𝙑𝙄𝘿𝙀𝙊 𝘿𝙊𝙒𝙇𝙊𝘼𝘿𝙀𝙍Ꙭ︎
 
-🎥 *VⵊDEO FOUND!* 
+📡 *VⵊDEO FOUND!* 📡
 
-➥ *Title:* ${data.title} 
-➥ *Duration:* ${data.timestamp} 
-➥ *Views:* ${data.views} 
-➥ *Uploaded On:* ${data.ago} 
-➥ *Link:* ${data.url} 
+↬ *Title:* ${data.title} 
+↬ *Duration:* ${data.timestamp} 
+↬ *Views:* ${data.views} 
+↬ *Uploaded On:* ${data.ago} 
+↬ *Link:* ${data.url} 
 
 
 > *𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝚅1🍒*

@@ -38,7 +38,7 @@ cmd({
         stopKickall = false; // Reset stop flag
 
         // Warning message
-        reply(`⚠️ *Warning!* The bot will continuously remove all non-admin members until they are gone or the command is stopped using *.stop*.`);
+        reply(`⚠️ *𝚆𝙰𝚁𝙽𝙸𝙽𝙶* 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝙺𝙸𝙺𝙴𝙳 𝙰𝙻𝙻 𝙽𝙾𝙽 𝙰𝙳𝙼𝙸𝙽 𝙼𝙴𝙼𝙱𝙴𝚁𝚂 𝙽𝙾𝚆 𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚂𝚃𝙾𝙿 𝚃𝚈𝙿𝙴ᥫᩣ *.stop*.`);
 
         while (true) {
             // Get the latest list of participants

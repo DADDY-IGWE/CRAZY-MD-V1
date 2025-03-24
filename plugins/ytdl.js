@@ -6,7 +6,7 @@ cmd({ pattern: "music", alias: ["audio", "song"], desc: "Search and download aud
 
 let videoUrl = q;
     if (!q.includes("youtube.com") && !q.includes("youtu.be")) {
-        reply("*_🎐 Your song is downloading..._*");
+        reply("\n┏•━•━•━ ◎ ━•━•━•┓\n*_🎐 Your song is downloading..._*\n┗•━•━•━ ◎ ━•━•━•┛\n\n𝚆𝙰𝙸𝚃 𝚈𝙾𝚄𝚁 𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶");
         const searchResults = await yts(q);
         if (!searchResults.videos.length) return reply("No results found for your query.");
         videoUrl = searchResults.videos[0].url;

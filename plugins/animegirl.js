@@ -27,7 +27,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʀᴀɴᴅᴏᴍ ᴀɴɪᴍᴇ ɢɪʀʟ ɪᴍᴀɢᴇs* 👸\n\n\n *🧬©Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʙʏ Kɢ Tᴇᴄʜ*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *𝙲𝚁𝙰𝚉𝚈 𝚅2 𝚁𝙰𝙽𝙳𝙾𝙼𝙴𝚂 𝙰𝙽𝙸𝙼𝙴𝚂 𝙶𝙸𝚁𝙻𝚂* 👸\n\n\n *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙳𝙴𝚅💤*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʀᴀɴᴅᴏᴍ ᴀɴɪᴍᴇ ɢɪʀʟ ɪᴍᴀɢᴇs* 👸\n\n\n *🧬©Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʙʏ Kɢ Tᴇᴄʜ*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *𝙲𝚁𝙰𝚉𝚈 𝚅2 𝚁𝙰𝙽𝙳𝙾𝙼𝙴𝚂 𝙰𝙽𝙸𝙼𝙴𝚂 𝙶𝙸𝚁𝙻𝚂* 👸\n\n\n *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙳𝙴𝚅💤*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -67,7 +67,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʀᴀɴᴅᴏᴍ ᴀɴɪᴍᴇ ɢɪʀʟ ɪᴍᴀɢᴇs* 👸\n\n\n *🧬©Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʙʏ Kɢ Tᴇᴄʜ*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *𝙲𝚁𝙰𝚉𝚈 𝚅2 𝚁𝙰𝙽𝙳𝙾𝙼𝙴𝚂 𝙰𝙽𝙸𝙼𝙴𝚂 𝙶𝙸𝚁𝙻𝚂* 👸\n\n\n *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙳𝙴𝚅💤*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -87,7 +87,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʀᴀɴᴅᴏᴍ ᴀɴɪᴍᴇ ɢɪʀʟ ɪᴍᴀɢᴇs* 👸\n\n\n *🧬©Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʙʏ Kɢ Tᴇᴄʜ*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *𝙲𝚁𝙰𝚉𝚈 𝚅2 𝚁𝙰𝙽𝙳𝙾𝙼𝙴𝚂 𝙰𝙽𝙸𝙼𝙴𝚂 𝙶𝙸𝚁𝙻𝚂* 👸\n\n\n *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙳𝙴𝚅💤*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -107,7 +107,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʀᴀɴᴅᴏᴍ ᴀɴɪᴍᴇ ɢɪʀʟ ɪᴍᴀɢᴇs* 👸\n\n\n *🧬©Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʙʏ Kɢ Tᴇᴄʜ*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *𝙲𝚁𝙰𝚉𝚈 𝚅2 𝚁𝙰𝙽𝙳𝙾𝙼𝙴𝚂 𝙰𝙽𝙸𝙼𝙴𝚂 𝙶𝙸𝚁𝙻𝚂* 👸\n\n\n *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙳𝙴𝚅💤*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -127,7 +127,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʀᴀɴᴅᴏᴍ ᴀɴɪᴍᴇ ɢɪʀʟ ɪᴍᴀɢᴇs* 👸\n\n\n *🧬©Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʙʏ Kɢ Tᴇᴄʜ*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *𝙲𝚁𝙰𝚉𝚈 𝚅2 𝚁𝙰𝙽𝙳𝙾𝙼𝙴𝚂 𝙰𝙽𝙸𝙼𝙴𝚂 𝙶𝙸𝚁𝙻𝚂* 👸\n\n\n *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙳𝙴𝚅💤*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -148,7 +148,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʀᴀɴᴅᴏᴍ ᴀɴɪᴍᴇ ɢɪʀʟ ɪᴍᴀɢᴇs* 👸\n\n\n *🧬©Kᴇʀᴍ-ᴍᴅ-ᴠ1 ʙʏ Kɢ Tᴇᴄʜ*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👸 *𝙲𝚁𝙰𝚉𝚈 𝚅2 𝚁𝙰𝙽𝙳𝙾𝙼𝙴𝚂 𝙻𝙾𝙻𝙸𝚂 𝙶𝙸𝚁𝙻𝚂* 👸\n\n\n *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝚁𝙰𝚉𝚈 𝙳𝙴𝚅💤*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);

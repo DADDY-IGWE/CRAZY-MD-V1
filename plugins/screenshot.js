@@ -8,7 +8,7 @@ const { cmd } = require('../command');
 cmd({
   pattern: "ss",
   alias: ["ssweb"],
-  react: "🚀",
+  react: "?",
   desc: "Download screenshot of a given link.",
   category: "other",
   use: ".ss <link>",
@@ -32,7 +32,7 @@ async (conn, mek, m, {
     // give credit and use
     const imageMessage = {
       image: { url: screenshotUrl },
-      caption: "*CRAZY SS WEB*\n\n> *HERE IS YOUR SCREENSHOOT?*",
+      caption: "*CRAZY SS WEB*\n\n> *HERE IS YOUR SCREENSHOOT*",
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,

@@ -79,6 +79,14 @@ cmd({
             image: { url: config.ALIVE_IMG },
             caption: madeSetting
         }, { quoted: mek });
+        
+        forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363411838274335@newsletter',
+                    newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃',
+                    serverMessageId: 143
+                }
+            }
+        }, { quoted: mek });
 
     } catch (e) {
         console.log(e);

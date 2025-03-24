@@ -10,12 +10,12 @@ cmd({
     pattern: "shutdown",
     desc: "Shutdown the bot.",
     category: "owner",
-    react: "🛑",
+    react: "💤",
     filename: __filename
 },
 async (conn, mek, m, { from, isOwner, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
-    reply("🛑 Shutting down...").then(() => process.exit());
+    reply("𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐒𝐇𝐔𝐓𝐓𝐈𝐍𝐆 𝐃𝐎𝐖𝐍..💤").then(() => process.exit());
 });
 // 2. Broadcast Message to All Groups
 cmd({

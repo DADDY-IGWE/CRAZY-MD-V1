@@ -98,7 +98,7 @@ cmd({
 27. Revelation
 
 
->📜 TRUST GOD..🌟
+> 📜 TRUST GOD..🌟
 `;
 
         // Remplacer ce lien par l'URL de l'image que tu m'enverras

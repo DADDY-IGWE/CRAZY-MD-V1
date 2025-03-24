@@ -14,7 +14,7 @@ cmd({
 }, async (conn, mek, m, { from, args, q, reply }) => {
     try {
         // Vérification de l'entrée utilisateur
-        if (!q) return reply("⚠️ Please provide a query for ChatGPT.\n\nExample:\n.gpt What is AI?");
+        if (!q) return reply("*⚠️ Please provide a query for ChatGPT*.\n\nExample:\n.gpt What is AI?");
 
         // Utilisation de `${text}` dans le endpoint API
         const text = q;  // Texte de la requête de l'utilisateur
@@ -48,10 +48,10 @@ cmd({
         }
 
         // Image AI à envoyer
-        const ALIVE_IMG = 'https://i.imgur.com/R4ebueM.jpeg'; // Remplacez par l'URL de votre image AI
+        const ALIVE_IMG = 'https://files.catbox.moe/y3s781.jpeg'; // Remplacez par l'URL de votre image AI
 
         // Légende avec des informations formatées
-        const formattedInfo = `𝐂𝐑𝐀𝐙𝐘 *Response:*\n\n${gptResponse}`;
+        const formattedInfo = `𝗔𝗜 📡*Response:*\n\n${gptResponse}`;
 
         // Envoyer le message avec image et légende
         await conn.sendMessage(from, {
@@ -62,7 +62,7 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363321386877609@newsletter',
+                    newsletterJid: '120363411838274335@newsletter',
                     newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐀𝐈',
                     serverMessageId: 143
                 }
@@ -123,7 +123,7 @@ cmd({
         }
 
         // AI image to attach
-        const AI_IMG = 'https://files.catbox.moe/giab52.jpeg'; // Replace with a valid image URL
+        const AI_IMG = 'https://files.catbox.moe/bdtu1r.jpeg'; // Replace with a valid image URL
 
         // Formatted response text
         const formattedInfo = `🤖 *Llama3 Response:*\n\n${llamaResponse}`;
@@ -137,7 +137,7 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363321386877609@newsletter',
+                    newsletterJid: '120363411838274335@newsletter',
                     newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐀𝐈',
                     serverMessageId: 143
                 }

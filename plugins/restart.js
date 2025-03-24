@@ -7,7 +7,7 @@ const {sleep} = require('../lib/functions')
 cmd({
     pattern: "restart",
     alias: ["rebot","reboot"], 
-    react: "🔄",
+    react: "⚙️",
     desc: "restart the bot",
     category: "owner",
     filename: __filename
@@ -16,7 +16,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 if (!isOwner) return;
 const {exec} = require("child_process")
-reply("CRAZY-MD-V1 restarting...")
+reply("*CRAZY-MD-V1* restarting...⚙️")
 await sleep(1500)
 exec("pm2 restart all")
 }catch(e){

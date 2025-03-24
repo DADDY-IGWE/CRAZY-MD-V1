@@ -5,13 +5,13 @@ const { cmd } = require("../command");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Enregistrement de l'heure de démarrage du bot
-const ALIVE_IMG = "https://files.catbox.moe/giab52.jpeg"; // Assurez-vous que cette URL est valide
+const ALIVE_IMG = "https://files.catbox.moe/tljvav.jpeg"; // Assurez-vous que cette URL est valide
 
 cmd({
-    pattern: "alive2",
+    pattern: "test",
     desc: "Check if the bot is active.",
     category: "info",
-    react: "🔥",
+    react: "✨",
     filename: __filename
 }, async (conn, mek, m, { reply, from }) => {
     try {
@@ -25,12 +25,13 @@ cmd({
         const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
 
         const formattedInfo = `
-🌟 *CRAZY MD V1 STATUS* 🌟
+🎐𝗖𝗥𝗔𝗭𝗬 𝗠𝗗 𝗩2 𝗧𝗘𝗦𝗧𝗜𝗡𝗚🎐
 Hi 🫵🏽 ${pushname}
+┏━━━━ • ✿ • ━━━━
 🕒 *Time*: ${currentTime}
 📅 *Date*: ${currentDate}
 ⏳ *Uptime*: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds
-
+┗━━━━ • ✿ • ━━━━
 🤖 *Status*: *crazy md is Alive and Ready!*
 
 🎉 *Enjoy the Service!*
@@ -50,8 +51,8 @@ Hi 🫵🏽 ${pushname}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363321386877609@newsletter',
-                    newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐀𝐋𝐈𝐕𝐄',
+                    newsletterJid: '120363411838274335@newsletter',
+                    newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐓𝐄𝐒𝐓',
                     serverMessageId: 143
                 }
             }
@@ -59,7 +60,7 @@ Hi 🫵🏽 ${pushname}
         
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/LORD-IGWE/CRAZY-MD-V1/blob/main/DATA%20BASE/Kermalive.m4a' },
+            audio: { url: 'https://files.catbox.moe/d8qqch.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -67,8 +68,8 @@ Hi 🫵🏽 ${pushname}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363321386877609@newsletter',
-                    newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐀𝐋𝐈𝐕𝐄',
+                    newsletterJid: '120363411838274335@newsletter',
+                    newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐓𝐄𝐒𝐓',
                     serverMessageId: 143
                 }
             }

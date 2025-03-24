@@ -8,7 +8,7 @@ const path = require("path");
 
 cmd({
   pattern: "save",
-  react: "📁",
+  react: "📥",
   alias: ["store"],
   desc: "Save and send back a media file (image, video, or audio).",
   category: "media",
@@ -47,7 +47,7 @@ cmd({
 
     // Envoyer le fichier au contact
     await bot.sendMessage(chat.sender, mediaMessage, { quoted: message });
-    await reply("✅ Successfully saved and sent the media file.");
+    await reply("✅ Successfully saved and sent the file.");
   } catch (error) {
     console.error(error);
     reply("❌ Failed to save and send the media. Please try again.");

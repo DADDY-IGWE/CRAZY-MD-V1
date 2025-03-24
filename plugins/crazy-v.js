@@ -59,7 +59,7 @@ cmd({
     const githubRepo = 'https://github.com/LORD-IGWE/CRAZY-MD-V1';
 
     // Check update status
-    let updateMessage = `*✅ 𝖸𝖮𝖴R CRAZY－𝖬𝖣－𝖵𝟣 𝖡𝖮𝖸 𝖨𝖲 𝖴𝖯-𝖳𝖮-𝖣𝖠𝖳𝖤!*`;
+    let updateMessage = `*✅ 𝖸𝖮𝖴R CRAZY－𝖬𝖣－𝖵𝟣 𝖡𝖮T 𝖨𝖲 𝖴𝖯𝖳𝖮𝖣𝖠𝖳𝖤!*`;
     if (localVersion !== latestVersion) {
       updateMessage = `*😵‍💫 𝖸𝖮𝖴𝖱 CRAZY－𝖬𝖣－𝖵𝟣 𝖨𝖲 𝖮𝖴𝖳𝖣𝖠𝖳𝖤𝖣*
 🔹 *ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ:* ${localVersion}
@@ -83,7 +83,7 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363321386877609@newsletter',
+          newsletterJid: '120363336659207331@newsletter',
           newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐕',
           serverMessageId: 143
         }
