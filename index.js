@@ -35,13 +35,13 @@ const prefix = config.PREFIX
 const ownerNumber = ['24165730123']
 
 //===========SESSION-AUTH============================
-if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
+if (!fs.existsSync(__dirname + '/auth/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
 const sessdata = config.SESSION_ID.replace("CRAZY-MD-V1~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
-fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
+fs.writeFile(__dirname + '/auth/creds.json', data, () => {
 console.log("SESSION DOWNLOADED COMPLETED ✅")
 })})}
 
@@ -51,8 +51,8 @@ const port = process.env.PORT || 9090;
 
 
 async function connectToWA() {
-console.log("CONNECTING CRAZY_MD-V1🧬...");
-const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
+console.log("CONNECTING CRAZY_MD-V1..⚙️");
+const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth/')
 var { version } = await fetchLatestBaileysVersion()
 
 const conn = makeWASocket({
@@ -71,32 +71,32 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('🍒 INSTALLING PLUGINS FILES PLEASE WAIT... 🧬')
+console.log('🌟INSTALLING PLUGINS FILES PLEASE WAIT... 🧬')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('PLUGINS INSTALED SUCCESSFULY✅')
+console.log('PLUGINS INSTALLED SUCCESSFULY✅')
 console.log('CRAZY_MD-V1 CONNECTED..🍒')
 
-let up = `*╭──────────────●●►*
+let up = `*╭──────────────❋❋*
 > ↬𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝚃𝚈𝙿𝙴 .𝙼𝙴𝙽𝚄 𝚃𝙾 𝚂𝙷𝙾𝚆 𝙰𝙻𝙻 𝙲𝙼𝙳 𝙾𝙵 𝚃𝙷𝙴 𝙱𝙾𝚃ᥫᩣ
 
- *𝙹𝙾𝙸𝙽 𝙲𝚁𝙰𝚉𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝚄𝙿𝙳𝙰𝚃𝙴 𝙰𝙽𝙳 𝙼𝙾𝚁𝙴 𝚃𝚁𝙸𝙲𝙺𝚂💫:*
+ *𝙹𝙾𝙸𝙽 𝙲𝚁𝙰𝚉𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝚄𝙿𝙳𝙰𝚃𝙴 𝙰𝙽𝙳 𝙼𝙾𝚁𝙴 𝚃𝚁𝙸𝙲𝙺𝚂🎐:*
 
-*https://whatsapp.com/channel/0029Vb4QhPj4NVipeOtyo02n*
+↬ *https://whatsapp.com/channel/0029Vb4QhPj4NVipeOtyo02n*
 
-*╭☛ 𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐕1 ☚╮*
-*│✿🥇 - 𝚁𝙴𝙿𝙾 𝙽𝙰𝙼𝙴:* *𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝚅1*
-*│✿🎃 - 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽:* *THE WORLD BEST WHATSAPP BOT♻️*
-*│✿🎐 - 𝙳𝙴𝚅:* *𝙲𝚁𝙰𝚉𝚈 𝙳𝙴𝚅*
+*╭☛ 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡 ☚╮*
+*│✿🐞↬ 𝚁𝙴𝙿𝙾 𝙽𝙰𝙼𝙴:* *𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝚅1*
+*│✿🗯️↬ 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽:* *WhatsApp bot*
+*│✿🎐↬ 𝙳𝙴𝚅:* *𝙲𝚁𝙰𝚉𝚈 𝙳𝙴𝚅*
 
-*𝐘𝐎𝐔𝐑 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐂𝐓𝐈𝐕𝐄 𝐓𝐘𝐏𝐄 𝐌𝐄𝐍𝐔*\n\n*PREFIX: ${prefix}*
+> *𝐘𝐎𝐔𝐑 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐂𝐓𝐈𝐕𝐄 𝐓𝐘𝐏𝐄 𝐌𝐄𝐍𝐔*\n\n*𝙿𝚁𝙴𝙵𝙸𝚇 :〘 ${prefix}〙*
 
-*╰──────────────●●►*`;
-conn.sendMessage(conn.user.id, { image: { url: `https://i.imgur.com/Nd7FzOn.jpeg` }, caption: up })
+*╰──────────────❋❋*`;
+conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/5264vl.jpg` }, caption: up })
 
 }
 })
