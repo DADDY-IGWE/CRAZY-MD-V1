@@ -20,7 +20,7 @@ cmd({
 }) => {
   try {
     // Read local version data
-    const localVersionPath = path.join(__dirname, '../DATABASE/version.json');
+    const localVersionPath = path.join(__dirname, '../DATA%20BASE/version.json');
     let localVersion = 'Unknown';
     let changelog = 'No changelog available.';
     if (fs.existsSync(localVersionPath)) {
@@ -61,11 +61,11 @@ cmd({
     // Check update status
     let updateMessage = `*✅ 𝖸𝖮𝖴R CRAZY－𝖬𝖣－𝖵𝟣 𝖡𝖮T 𝖨𝖲 𝖴𝖯𝖳𝖮𝖣𝖠𝖳𝖤!*`;
     if (localVersion !== latestVersion) {
-      updateMessage = `*😵‍💫 𝖸𝖮𝖴𝖱 CRAZY－𝖬𝖣－𝖵𝟣 𝖨𝖲 𝖮𝖴𝖳𝖣𝖠𝖳𝖤𝖣*
+      updateMessage = `*😵 𝖸𝖮𝖴𝖱 CRAZY－𝖬𝖣－𝖵𝟣 𝖨𝖲 𝖮𝖴𝖳𝖣𝖠𝖳𝖤𝖣*
 🔹 *ᴄᴜʀʀᴇɴᴛ ᴠᴇʀsɪᴏɴ:* ${localVersion}
 🔹 *ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ:* ${latestVersion}
 
-*ᴜsᴇ .ᴜᴘᴅᴀᴛᴇ ᴛᴏ ᴜᴘᴅᴀᴛᴇ.*`;
+*ᴜsᴇ .ᴜᴘᴅᴀᴛᴇ ᴛᴏ ᴜᴘᴅᴀᴛᴇ ᴄʀᴀᴢʏ ᴍᴅ.*`;
     }
 
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
@@ -83,8 +83,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363336659207331@newsletter',
-          newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃 𝐕',
+          newsletterJid: '120363411838274335@newsletter',
+          newsletterName: '𝐂𝐑𝐀𝐙𝐘 𝐌𝐃',
           serverMessageId: 143
         }
       }

@@ -27,7 +27,7 @@ cmd({
 }) => {
     try {
         // Ensure the command is used in a group
-        if (!isGroup) return reply(`❌ This command can only be used in groups.`);
+        if (!isGroup) return reply(`❌ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ɪɴ ɢʀᴏᴜᴘs.`);
 
         // Ensure the user is an admin
         if (!isAdmins) return reply(`❌ Only group admins can use this command.`);
@@ -38,7 +38,7 @@ cmd({
         stopKickall = false; // Reset stop flag
 
         // Warning message
-        reply(`⚠️ *𝚆𝙰𝚁𝙽𝙸𝙽𝙶* 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝙺𝙸𝙺𝙴𝙳 𝙰𝙻𝙻 𝙽𝙾𝙽 𝙰𝙳𝙼𝙸𝙽 𝙼𝙴𝙼𝙱𝙴𝚁𝚂 𝙽𝙾𝚆 𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚂𝚃𝙾𝙿 𝚃𝚈𝙿𝙴ᥫᩣ *.stop*.`);
+        reply(`🚨 *𝚆𝙰𝚁𝙽𝙸𝙽𝙶* 𝙲𝚁𝙰𝚉𝚈 𝙼𝙳 𝙺𝙸𝙺𝙴𝙳 𝙰𝙻𝙻 𝙽𝙾𝙽 𝙰𝙳𝙼𝙸𝙽 𝙼𝙴𝙼𝙱𝙴𝚁𝚂 𝙽𝙾𝚆 𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚂𝚃𝙾𝙿 𝚃𝚈𝙿𝙴ᥫᩣ *.stop*.`);
 
         while (true) {
             // Get the latest list of participants
@@ -54,7 +54,7 @@ cmd({
 
             for (let participant of nonAdminParticipants) {
                 if (stopKickall) {
-                    reply(`✅ *Operation stopped by the user.* Some members may not have been removed.`);
+                    reply(`✅ *ᴏᴘᴇʀᴀᴛɪᴏɴ sᴛᴏᴘᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ`);
                     return;
                 }
 
@@ -131,7 +131,7 @@ cmd({
             });
         
         // Send a confirmation message upon successful removal
-        reply(`✅ Success! The participant has been removed from the group.`);
+        reply(`✅ ᴀʟʟ-ᴘᴀʀᴛɪᴄɪᴘᴀɴᴛ ʜᴀs ʙᴇᴇɴ ʀᴇᴍᴏᴠᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ.`);
     } catch (e) {
         console.error('Error while executing kick:', e);
         reply('❌ An error occurred while executing the command.');

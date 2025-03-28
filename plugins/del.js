@@ -24,7 +24,7 @@ async (conn, mek, m, {
   try {
     // Vérifier si un message est cité
     if (!quoted) {
-      return await conn.sendMessage(from, { text: "❌ Please reply to a message to delete it." }, { quoted: m });
+      return await conn.sendMessage(from, { text: "❌ ʀᴇᴘʟʏ ғᴏʀ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴅᴇʟᴇᴛᴇ ɪᴛ." }, { quoted: m });
     }
 
     // Construire la clé pour supprimer le message
